@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #0d192b;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Outfit", sans-serif;
+}
+
+.card{
+   background-color: #14253d;
+   width: 350px;
+   padding: 16px;
+   border-radius: 10px;
+   box-shadow: 0px 20px 30px #0000005d;
+}
+
+
+.img-equilibrium{
+   width: 100%;
+   border-radius: 10px;
+}
+
+.card h1{
+   color: #ffffff;
+   font-size: 24px;
+   font-weight: 400;
+   padding: 16px 0;
+}
+
+.card h1:hover{
+   color:#00fff7;
+   cursor: pointer;
+}
+
+.card p{
+   color: #8bacda;
+   font-size: 18px;
+}
+
+.card-infor{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 16px 0;
+}
+
+.img-eth, .text-days{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.img-eth p{
+   color: #00fff7;
+}
+
+.img-eth p, .text-days p{
+   font-size: 18px;
+}
+
+.text-days p:hover{
+   color:#00fff7;
+   cursor: pointer;
+}
+
+.barra{
+   border: none;
+   padding: 0.5px;
+   background-color: rgba(255, 255, 255, 0.096);
+}
+
+.avatar-text{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 16px;
+   font-size: 18px;
+   padding: 16px 0
+}
+
+.avatar-text .avatar{
+   width: 32px;
+   border: 1px solid  white;
+   border-radius: 50%;
+}
+
+.avatar-text p{
+   color: white;
+}
+
+.avatar-text-span{
+   color: #8bacda;
+}
+
+.avatar-text p:hover{
+   color:#00fff7;
+   cursor: pointer;
+   transition: 0.5s;
+}
